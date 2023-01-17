@@ -118,7 +118,7 @@ const App = () => {
 
   const getResult = async (path, response) => {
     setImage(path);
-    setLabel('Predicting...');
+    setLabel('Predicting the disease...');
     setResult('');
     const params = {
       uri: path,
